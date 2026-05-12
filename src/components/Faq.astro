@@ -1,0 +1,60 @@
+<!-- FAQ SECTION -->
+<section class="faq">
+  <div class="container">
+    <h2>Pertanyaan Umum Sedot WC Bintaro</h2>
+    <p class="faq-subtitle">Jawaban atas pertanyaan yang sering diajukan tentang layanan kami</p>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">Berapa harga sedot WC di Bintaro?</div>
+        <div class="faq-answer">Harga sedot WC di Bintaro mulai dari Rp 150.000 tergantung volume dan jenis layanan. Untuk sedot septik tank mulai Rp 250.000, dan sedot limbah industri mulai Rp 350.000. Kami memberikan harga transparan tanpa biaya tersembunyi dan gratis konsultasi sebelum pengerjaan.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Apakah layanan sedot WC Bintaro melayani 24 jam?</div>
+        <div class="faq-answer">Ya, Sedot WC Bintaro melayani 24 jam penuh setiap hari termasuk hari libur nasional. Anda bisa menghubungi kami kapan saja melalui WhatsApp di 0812-9427-5322 atau telepon langsung. Tim kami siap merespons panggilan Anda dengan cepat.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Berapa lama proses sedot WC?</div>
+        <div class="faq-answer">Proses sedot WC biasanya memakan waktu 30-60 menit tergantung kondisi dan volume limbah. Tim kami akan tiba di lokasi Anda dalam 30 menit setelah konfirmasi pesanan. Kami menggunakan peralatan modern untuk memastikan proses berjalan cepat dan bersih.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Wilayah mana saja yang dilayani sedot WC Bintaro?</div>
+        <div class="faq-answer">Kami melayani seluruh wilayah Bintaro (Sektor 1, 2, 3, 5, 7, 9), CBD Bintaro, Bintaro Jaya, Graha Raya, Victoria Park, Bintaro Plaza, Pondok Jagung, Jurang Mangu, dan area sekitar Bintaro.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Apakah ada garansi setelah sedot WC?</div>
+        <div class="faq-answer">Ya, kami memberikan garansi kepuasan selama 7 hari. Jika dalam 7 hari setelah layanan terjadi masalah yang sama dengan pekerjaan yang kami lakukan, kami akan melakukan perbaikan ulang tanpa biaya tambahan. Kepuasan pelanggan adalah prioritas utama kami.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Bagaimana cara memesan jasa sedot WC Bintaro?</div>
+        <div class="faq-answer">Anda bisa memesan jasa sedot WC Bintaro dengan mudah melalui WhatsApp di 0812-9427-5322 atau telepon langsung. Tim kami akan memberikan estimasi harga dan jadwal kedatangan. Pembayaran bisa dilakukan setelah pekerjaan selesai.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style is:global>
+/* FAQ */
+.faq{background:#F8F8F8;padding:80px 0}
+.faq h2{font-family:'Poppins',sans-serif;font-size:40px;font-weight:700;color:#000;text-align:center;margin-bottom:10px;padding-left:15px;border-left:3px solid #ff7f50;display:inline-block}
+.faq-subtitle{font-family:'Roboto',sans-serif;font-size:18px;color:#757575;text-align:center;margin-bottom:40px}
+.faq-list{max-width:800px;margin:0 auto}
+.faq-item{background:#fff;border-radius:10px;margin-bottom:12px;overflow:hidden;border:1px solid #e8e8e8}
+.faq-question{font-family:'Poppins',sans-serif;font-size:17px;font-weight:600;color:#000;padding:20px 25px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.faq-question::after{content:"+";font-size:24px;color:#052B8D;font-weight:300;transition:transform 0.3s}
+.faq-item.active .faq-question::after{transform:rotate(45deg)}
+.faq-answer{font-family:'Roboto',sans-serif;font-size:15px;color:#555;line-height:1.7;padding:0 25px;max-height:0;overflow:hidden;transition:max-height 0.3s ease,padding 0.3s ease}
+.faq-item.active .faq-answer{max-height:300px;padding:0 25px 20px}
+</style>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(function(q){
+  q.addEventListener('click',function(){
+    var item=this.parentElement;
+    var wasActive=item.classList.contains('active');
+    document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('active')});
+    if(!wasActive) item.classList.add('active');
+  });
+});
+</script>
+
+
