@@ -1,0 +1,5 @@
+[[redirects]]
+from = "sedotwcbintaro.netlify.app/*"
+to = "https://sedotwcbintaro.com/:splat"
+status = 301
+force = true
